@@ -1,0 +1,169 @@
+.topbar {
+    width: 100%;
+    box-shadow: 0 2px 5px #ccc;
+    background-color: white;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    box-sizing: border-box;
+    padding: 16px 8%;
+    color: rgb(99, 96, 96);
+}
+.Navbar{
+    display:inline-block; 
+     Padding: 16px 78px;
+   }
+   .logoWrapper{
+       display: flex;
+       flex-direction: column;
+       text-decoration: none;
+       margin: 0;
+   }
+   .edyodaLogo{
+       font-size: 25px;
+       font-weight: 800;
+       color: blue;
+       text-decoration: none;
+   }
+   .edyodaStory{
+    font-size: 15px;
+    color: black;
+    text-decoration: none;  
+   }
+   .dropDown{
+       width: 30px;
+   }
+   .dropDownText{
+       text-decoration: none;
+       font-size: 15px;
+   }
+   .dropdownIcon{
+    padding-top:0px;
+    padding-left: 8px;
+   
+  }
+  .edyodaQuote{
+      color: rgb(202, 181, 181);
+  }
+.leftMenu {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo>a {
+    text-decoration: none;
+    color: #009688;
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-right: 16px;
+}
+
+.logo span {
+    font-weight: 800;
+}
+
+.left-menu>a {
+    text-decoration: none;
+    color: black;
+    margin-left: 32px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.left-menu>a:hover {
+    color: #009688;
+}
+.websiteButton{
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.buttonMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+button:hover{
+    background-color:blue;
+    color:white;
+   }
+
+.btn{
+  Padding: 6px 14px;
+  Width: auto;
+  color: #0084ff;
+  border-radius: 15px;
+  Border: 1px solid #0084ff;
+  Margin-top: 5px;
+  Cursor: pointer
+  }
+  .imgContainer{
+      display: flex;
+      flex-direction: row;
+    
+   }
+  .item{
+      margin: 10px;
+ /* margin-top:10px;
+  margin-bottom:10px;*/
+}
+
+.description{
+    margin-top: -10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border:1px solid rgb(155, 220, 224);
+    box-shadow:1px gray;
+}
+.imgSection{
+  Height: 176px;
+Width: 100%;
+}
+.image{
+  width: 100%;
+  height: 100%;
+ border-top-left-radius: 20px;
+ border-top-right-radius: 20px;
+ border:1px solid rgb(155, 220, 224);
+  
+}
+  .title{
+    font-size: 18px;
+    text-align: left;
+    Margin: 0;
+    font-weight: 600;
+  }
+  .autName{
+    color: #0096ff;
+  font-size: 14px;
+  font-weight: 500;
+  }
+  .autDate{
+     padding-top:4px;
+   color: rgba(0,0,0,0.7);
+  font-size: 14px;
+  font-weight: 300;
+  }
+  .autPara{
+    font-Size: 14px;
+  font-weight: 400;
+  line-height: 1.43;
+  color: rgba(0,0,0,.6);
+  margin: 4px 0;
+  }
+  
+
